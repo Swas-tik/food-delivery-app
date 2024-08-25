@@ -3,10 +3,12 @@ import NavBar from "./components/NavBar"
 import Home from "./pages/Home/Home"
 import Cart from "./pages/Cart/Cart"
 import PlaceOrder from "./pages/PlaceOrder/PlaceOrder"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   
   return (
+    <>
     <div className="app">
       <NavBar/> 
       <Routes>
@@ -16,6 +18,8 @@ function App() {
 
       </Routes> 
     </div>
+    <Footer/>
+    </>
   )
 }
 
