@@ -4,7 +4,7 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import StoreContextProvider from './context/StoreContext.jsx'
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='https://swas-tik.github.io/food-delivery-app/'>
+  <BrowserRouter>
     <StoreContextProvider>
       <App />
     </StoreContextProvider>
